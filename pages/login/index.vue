@@ -3,7 +3,6 @@ definePageMeta({
     middleware: 'login'
 })
 
-import '@/assets/css/login.less';
 import { Form } from 'vee-validate';
 import * as Yup from 'yup';
 import TextInput from '@/components/TextInput.vue';

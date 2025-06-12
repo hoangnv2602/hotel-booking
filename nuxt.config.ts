@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   css: [
     '~/assets/css/app.css',
     '~/assets/css/main.less',
+    '~/assets/css/login.less',
   ],
   app: {
     head: {
