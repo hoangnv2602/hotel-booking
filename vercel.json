@@ -1,0 +1,6 @@
+{
+  "includeFiles": [
+    "server/data/rooms.json",
+    "server/data/users.json"
+]
+}

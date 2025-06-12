@@ -23,10 +23,6 @@ export default defineNuxtConfig({
     strict: false,
   },
   plugins: ['~/plugins/toast.client.ts'],
-
-  ignore: [
-    '**/server/data/**',
-  ],
   modules: [
     "@vee-validate/nuxt",
     "@nuxtjs/tailwindcss",
