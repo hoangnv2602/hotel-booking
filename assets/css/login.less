@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #fafafb;
+}
+
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #7b7b7b;
+  margin-bottom: 0.5rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: .5rem;
+  font-size: 14px;
+  color: #7b7b7b;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #AB8A62;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.2);
+}
+
+button {
+  padding: 0.75rem;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #AB8A62;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.125rem;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #AB8A62;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+}
+
+form {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 380px;
+}
+
+.submit-btn.invalid {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px);
+  }
+  10% {
+    transform: translate(-1px, -2px);
+  }
+  20% {
+    transform: translate(-3px, 0px);
+  }
+  30% {
+    transform: translate(3px, 2px);
+  }
+  40% {
+    transform: translate(1px, -1px);
+  }
+  50% {
+    transform: translate(-1px, 2px);
+  }
+  60% {
+    transform: translate(-3px, 1px);
+  }
+  70% {
+    transform: translate(3px, 1px);
+  }
+  80% {
+    transform: translate(-1px, -1px);
+  }
+  90% {
+    transform: translate(1px, 2px);
+  }
+  100% {
+    transform: translate(1px, -2px);
+  }
+}
+
+.submit-btn:hover {
+  transform: scale(1.1);
+}

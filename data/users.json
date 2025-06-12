@@ -1,0 +1,104 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Alice Smith",
+            "email": "alice.smith@example.com",
+            "sex": "female",
+            "username": "alicesmith",
+            "password": "password123",
+            "age": 28,
+            "phonenumber": "555-123-4567"
+        },
+        {
+            "id": 2,
+            "name": "Bob Johnson",
+            "email": "bob.johnson@example.com",
+            "sex": "male",
+            "username": "bobjohnson",
+            "password": "securepass",
+            "age": 32,
+            "phonenumber": "555-234-5678"
+        },
+        {
+            "id": 3,
+            "name": "Chloe Williams",
+            "email": "chloe.williams@example.com",
+            "sex": "female",
+            "username": "chloewilliams",
+            "password": "chloe2024",
+            "age": 25,
+            "phonenumber": "555-345-6789"
+        },
+        {
+            "id": 4,
+            "name": "David Brown",
+            "email": "david.brown@example.com",
+            "sex": "male",
+            "username": "davidbrown",
+            "password": "davidpass",
+            "age": 29,
+            "phonenumber": "555-456-7890"
+        },
+        {
+            "id": 5,
+            "name": "Emma Davis",
+            "email": "emma.davis@example.com",
+            "sex": "female",
+            "username": "emmadavis",
+            "password": "emmadavis123",
+            "age": 27,
+            "phonenumber": "555-567-8901"
+        },
+        {
+            "id": 6,
+            "name": "Frank Miller",
+            "email": "frank.miller@example.com",
+            "sex": "male",
+            "username": "frankmiller",
+            "password": "frankm456",
+            "age": 31,
+            "phonenumber": "555-678-9012"
+        },
+        {
+            "id": 7,
+            "name": "Grace Wilson",
+            "email": "grace.wilson@example.com",
+            "sex": "female",
+            "username": "gracewilson",
+            "password": "gracewilson789",
+            "age": 26,
+            "phonenumber": "555-789-0123"
+        },
+        {
+            "id": 8,
+            "name": "Henry Moore",
+            "email": "henry.moore@example.com",
+            "sex": "male",
+            "username": "henrymoore",
+            "password": "henrypass",
+            "age": 30,
+            "phonenumber": "555-890-1234"
+        },
+        {
+            "id": 9,
+            "name": "Isabella Taylor",
+            "email": "isabella.taylor@example.com",
+            "sex": "female",
+            "username": "isabellataylor",
+            "password": "isabellat321",
+            "age": 24,
+            "phonenumber": "555-901-2345"
+        },
+        {
+            "id": 10,
+            "name": "Kevin Anderson",
+            "email": "kevin.anderson@example.com",
+            "sex": "male",
+            "username": "kevinanderson",
+            "password": "kevinand654",
+            "age": 33,
+            "phonenumber": "555-012-3456"
+        }
+    ]
+}
