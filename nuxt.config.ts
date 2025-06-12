@@ -18,9 +18,6 @@ export default defineNuxtConfig({
     // baseURL: '/profile/'
   },
   ssr: true,
-  ignore: [
-    '**/data/**',
-  ],
   typescript: {
     strict: false,
   },
