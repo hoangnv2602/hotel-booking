@@ -25,16 +25,11 @@ export default defineNuxtConfig({
     strict: false,
   },
   plugins: ['~/plugins/toast.client.ts'],
-  extends: '@nuxt/ui',
   modules: [
     "@vee-validate/nuxt",
     "@nuxtjs/tailwindcss",
-    "@nuxt/eslint",
-    "@nuxt/fonts",
     "@nuxt/icon",
     "@nuxt/image",
-    "@nuxt/scripts",
-    "@nuxt/test-utils",
     "@nuxt/ui",
     "@pinia/nuxt"
   ],

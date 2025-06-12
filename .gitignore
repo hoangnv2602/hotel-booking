@@ -6,6 +6,8 @@
 .cache
 dist
 
+yarn.lock
+
 # Node dependencies
 node_modules
 
