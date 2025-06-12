@@ -13,7 +13,7 @@ type Data = {
     rooms: Room[]
 }
 
-const file = join(process.cwd(), 'server/data/rooms.json')
+const file = join(process.cwd(), 'data/rooms.json')
 const adapter = new JSONFile<Data>(file)
 const db = new Low<Data>(adapter, { rooms: [] })
 
