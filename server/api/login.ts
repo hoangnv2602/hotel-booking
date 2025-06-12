@@ -15,7 +15,7 @@ type Data = {
   users: User[]
 }
 
-const file = join(process.cwd(), 'data/users.json')
+const file = join(process.cwd(), 'server/data/users.json')
 const adapter = new JSONFile<Data>(file)
 const db = new Low<Data>(adapter, { users: [] })
 
