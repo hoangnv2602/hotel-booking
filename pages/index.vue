@@ -155,6 +155,15 @@ const df = new DateFormatter('en-US', {
     dateStyle: 'medium'
 })
 
+// import { useRoom } from '@/composables/useRoom';
+
+// const { saveRooms } = useRoom()
+
+// import rooms from '@/data/rooms.json'
+// // console.log(rooms.rooms);
+
+// await saveRooms(rooms.rooms)
+
 const today = new Date()
 
 const modelValue = shallowRef({

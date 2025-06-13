@@ -19,16 +19,26 @@ export default defineNuxtConfig({
     // baseURL: '/profile/'
   },
   ssr: true,
+  ignore: [
+    '**/data/**',
+  ],
   typescript: {
     strict: false,
   },
   plugins: ['~/plugins/toast.client.ts'],
+  experimental: {
+    componentIslands: true,
+  },
   modules: [
     "@vee-validate/nuxt",
     "@nuxtjs/tailwindcss",
+    "@nuxt/eslint",
+    "@nuxt/fonts",
     "@nuxt/icon",
     "@nuxt/image",
+    "@nuxt/scripts",
+    "@nuxt/test-utils",
     "@nuxt/ui",
-    "@pinia/nuxt"
+    "@pinia/nuxt",
   ],
 });
